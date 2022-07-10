@@ -1,0 +1,12 @@
+<div class="statusAccount">
+  <mat-menu #appMenu="matMenu">
+    <ng-template matMenuContent class="menuOpen">
+      <button mat-menu-item><a type="button" class="status" [routerLink]="['/login']" routerLinkActive="router-link-active">Accedi</a></button>
+      <button mat-menu-item><a type="button" class="status" [routerLink]="['/signup']" routerLinkActive="router-link-active">Registrati</a></button>
+    </ng-template>
+  </mat-menu>
+  <button class="buttonCircle" mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+  <a type="button" class="statusLogout" (click)="logout()"><mat-icon>logout</mat-icon></a>
+</div>

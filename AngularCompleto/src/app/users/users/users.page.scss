@@ -1,0 +1,34 @@
+
+.tabella {
+  margin: 1rem 0rem;
+  text-align: center !important;
+}
+
+table {
+  width: 100%;
+
+  th {
+    text-align: center;
+
+  }
+
+  .mat-row {
+    height: auto;
+
+ }
+
+ .mat-cell {
+    padding: 12px 0px 8px 0px;
+
+ }
+
+}
+@media screen and (min-width:1200px) {
+  .tabella {
+    margin: 1rem 20rem;
+    th {
+      font-size: 1.4rem;
+    }
+  }
+
+}

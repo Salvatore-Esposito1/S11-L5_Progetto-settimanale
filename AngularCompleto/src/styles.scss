@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+@media screen and (max-width:678px){
+  mat-toolbar {
+    font-size: 14px !important;
+    .logo a {
+      display: none;
+
+    }
+  }
+  .fotoHome {
+    img {
+      margin-left: 40px;
+
+     }}
+
+  table td{
+    font-size: 10px !important;
+
+  }
+
+  .box-container {
+    width: 80% !important;
+
+    padding: 0 !important;
+    border:  none !important;
+ }
+}
+ .box-container {
+  width: 40%;
+  margin: 3em auto;
+  border: 1px solid grey;
+  border-radius: 35px;
+  padding: 1.5em;
+  text-align: center;
+}
+.example-form {
+  min-width: 100px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+

@@ -1,0 +1,42 @@
+<div class="box-container">
+  <h1>Registrazione</h1>
+  <form #f="ngForm" (ngSubmit)="onSubmit()">
+
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label for="firstname" class="form-label">Firstname</mat-label>
+        <input matInput type="text" ngModel name="firstname" class="form-control" id="firstname">
+      </mat-form-field></td>
+    </tr></table>
+
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label for="lastname" class="form-label">Lastname</mat-label>
+        <input matInput type="text" ngModel name="lastname" class="form-control" id="lastname">
+      </mat-form-field></td>
+    </tr></table>
+
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label for="email" class="form-label">Email*</mat-label>
+        <input matInput type="email" ngModel name="email" class="form-control" id="email">
+      </mat-form-field></td>
+    </tr></table>
+
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label for="password" class="form-label">Password*</mat-label>
+        <input matInput type="password" ngModel name="password" class="form-control" id="password">
+      </mat-form-field></td>
+    </tr></table>
+
+      <button mat-flat-button color="primary">Registrati ora</button>
+      <button mat-flat-button color="primary" [routerLink]="['/login']" routerLinkActive="router-link-active">Hai già un account? Accedi</button>
+  </form>
+  <br>
+  <div *ngIf="error">
+    <button mat-raised-button color="warn">
+      {{error}}
+     </button>
+  </div>
+</div>

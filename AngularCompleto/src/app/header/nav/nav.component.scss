@@ -1,0 +1,19 @@
+.statusAccount {
+  cursor: pointer;
+  .buttonCircle {
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(234, 225, 225);
+    border-radius: 20px;
+    justify-content: end;
+    margin: 0 8px;
+    padding-top: 4px;
+    cursor: pointer;
+  }
+
+}
+
+.statusLogout {
+  color: white !important;
+
+}

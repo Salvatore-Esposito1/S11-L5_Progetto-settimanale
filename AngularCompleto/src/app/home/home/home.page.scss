@@ -1,0 +1,22 @@
+.contenitoreHome {
+  h1 {
+    text-align: center;
+   margin: 2rem 0;
+   }
+   img {
+    height: 300px;
+    padding-bottom: 100px;
+   }
+}
+
+@media screen and (min-width:992px) {
+  .contenitoreHome h1{font-size: 2.5rem;}
+  .fotoHome {margin: 1rem 8rem;
+    img {
+      height: 500px;
+
+     }
+
+  }
+
+}

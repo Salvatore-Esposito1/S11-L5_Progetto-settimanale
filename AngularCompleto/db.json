@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "email": "MarioRossi@gmail.com",
+      "password": "$2a$10$35mUQG8dVHKZbKi/9aMC0.T7uQ9/swysAknVnUqWCZQc6wIWP4hu6",
+      "firstname": "Mario",
+      "lastname": "Rossi",
+      "id": 1
+    },
+    {
+      "email": "GiuseppeVerdi@gmail.com",
+      "password": "$2a$10$rFlbg7URIeB55FJN4hBabOZqLUqb87OmLzzkKN0O77irOYQ7TiwlS",
+      "firstname": "Giuseppe",
+      "lastname": "Verdi",
+      "id": 2
+    },
+    {
+      "email": "P.Neri@gmail.com",
+      "password": "$2a$10$lXHNuaxdVMnjP0TC.S2Vp.MbncKjeF4B0xKZMbtR2riOpMwA5c78q",
+      "firstname": "Paola",
+      "lastname": "Neri",
+      "id": 3
+    },
+    {
+      "email": "italia@gmail.com",
+      "password": "$2a$10$lNdwaEpVdyCxJqYHIqWGB.omFOGa7QdWmI.PljITvvMCX.lbjq//i",
+      "firstname": "Simone",
+      "lastname": "Rossi",
+      "id": 4
+    },
+    {
+      "email": "F.Verdi@hotmail.it",
+      "password": "$2a$10$HKIf2yyuiLg0LsabVCCvmekGWVcKG84at1gcW2whl/23rxbdLIOKC",
+      "firstname": "Francesco",
+      "lastname": "Verdi",
+      "id": 5
+    },
+    {
+      "email": "Seba@hotmail.it",
+      "password": "$2a$10$slVuvU4XVNwhiZ0GBqojE.oT7vKks1CCwgnC0vQopEqcYjQ3csHt.",
+      "firstname": "Sebastian",
+      "lastname": "Corradini",
+      "id": 6
+    },
+    {
+      "email": "Paolo-Del-Vecchio@libero.it",
+      "password": "$2a$10$8hogFjxXSaBPtbkOOaJwZ.9KWjSBv96lr0K7UFN91VVQLUpGi2ioG",
+      "firstname": "Paolo",
+      "lastname": "Del Vecchio",
+      "id": 7
+    },
+    {
+      "email": "BarbaraBianchi@gmail.com",
+      "password": "$2a$10$fkj5ovviMg35nNY4zPG9xe2fU5dH/dGVgH2ZMu7JRKqbvBImeZ/Bm",
+      "firstname": "Barbara",
+      "lastname": "Bianchi",
+      "id": 8
+    }
+  ]
+}
